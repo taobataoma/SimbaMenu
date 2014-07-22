@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_updateconfig"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_updateconfig" />
+    <item
+        android:id="@+id/action_updatemenus"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/action_updatemenus" />
+    <item
+        android:id="@+id/action_downloadimages"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/action_downloadimages" />
+    <item
+        android:id="@+id/action_updateactivity"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/action_updateactivity" />
+    <item
+        android:id="@+id/action_downloadactivityimages"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/action_downloadactivityimages" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="@string/action_about" />
+    
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#084231"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+		
+	<LinearLayout
+	    android:layout_width="220dp"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" >
+    	
+		<LinearLayout
+		    android:id="@+id/select_layout_logo"
+		    android:layout_width="match_parent"
+		    android:layout_height="180dp"
+		    android:background="@drawable/layoutrightborderbackground"
+		    android:orientation="vertical"
+		    android:gravity="center"
+		    android:clickable="true"
+		    android:onClick="showFirstPage" >
+		    
+	    	<ImageView 
+	        	android:layout_width="150dp"
+	        	android:layout_height="150dp"
+	        	android:layout_gravity="center_horizontal"
+	        	android:src="@drawable/logos"
+	        	android:contentDescription="@string/image_desc"/>
+	    </LinearLayout>
+    
+		<LinearLayout
+		    android:id="@+id/select_layout_type"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1"
+		    android:background="@drawable/layoutrightborderbackground"
+		    android:gravity="right"
+		    android:orientation="vertical"
+		    android:paddingLeft="5dp"
+		    android:paddingTop="5dp" >
+
+            <Button
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:background="@drawable/menusubtypecheckedbackground"
+                android:text=""
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:gravity="fill_vertical|left"
+                android:drawableLeft="@drawable/dot" />
+
+            <Button
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layoutrightborderbackground"
+                android:text=""
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:gravity="fill_vertical|left" 
+                android:drawableLeft="@drawable/dot" />
+
+            <Button
+                style="?android:attr/actionButtonStyle"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:background="@drawable/layoutrightborderbackground"
+                android:text=""
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:gravity="fill_vertical|left" 
+                android:drawableLeft="@drawable/dot" />
+            
+        </LinearLayout>
+        <LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="80dp"
+		    android:background="@drawable/layoutrightborderbackground"
+		    android:gravity="left|center_vertical"
+		    android:orientation="vertical"
+		    android:paddingLeft="25dp">
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_prefix_tel"
+                android:textSize="18sp"
+                android:textColor="#BBBBBB"/>
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_telphone"
+                android:textSize="18sp"
+                android:textColor="#BBBBBB"/>
+            </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#177957"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <EditText
+            android:id="@+id/editTextDownlog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#177957"
+            android:clickable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:padding="15dp" >
+
+            <requestFocus />
+        </EditText>
+
+    	<ScrollView
+    	    android:id="@+id/scrollview_main"  
+			android:layout_width="match_parent"  
+			android:layout_height="match_parent"  
+			android:scrollbars="vertical"  
+			android:fadingEdge="vertical"
+	    	android:scrollbarStyle="outsideOverlay"
+			android:padding="10dp"
+			android:layout_margin="10dp">
+        
+        	<LinearLayout
+            	android:id="@+id/table_detail"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="vertical"
+            	android:gravity="center" >
+       	 	</LinearLayout>
+       	 </ScrollView>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">               
+    
+    <item >
+	    <shape>                                                               
+	        <solid android:color="#177957"/>                                  
+		</shape>                                                              
+    </item>                                                                   
+    <item android:bottom="1dp">                                      
+        <shape>                                                               
+            <solid android:color="#156F50"/>                                  
+        </shape>                                                              
+    </item>                                                                   
+    <item android:bottom="2dp">                                      
+        <shape>                                                               
+            <solid android:color="#136649"/>                                  
+        </shape>                                                              
+    </item>                                                                   
+    <item android:bottom="3dp">                                      
+        <shape>                                                               
+            <solid android:color="#115E43"/>                                  
+        </shape>                                                              
+    </item>                                                                   
+    <item android:bottom="4dp">
+	    <shape>                                                               
+	        <solid android:color="#0F5139"/>                                  
+		</shape>                                                              
+    </item>                                                                   
+    <item android:bottom="5dp">
+	    <shape>                                                               
+	        <solid android:color="#0D4430"/>                                  
+		</shape>                                                              
+    </item>                                                                   
+    <item android:bottom="6dp">
+	    <shape>                                                               
+	        <solid android:color="#04241B"/>                                  
+		</shape>                                                              
+    </item>
+    <item android:bottom="7dp">
+	    <shape>                                                               
+	        <solid android:color="#177957"/>                                  
+		</shape>                                                              
+    </item>                                                                   
+</layer-list >
+

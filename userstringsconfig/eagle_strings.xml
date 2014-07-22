@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">英格西餐咖啡厅餐牌系统</string>
+    
+    <!-- public -->
+    <string name="string_button_OK">确定</string>
+    <string name="string_button_Cancel">取消</string>
+    <string name="string_copyright">Copyright simbacafe.com All Right.</string>
+    <string name="string_version">Ver:1.0.410.1000　TEL:18638003911</string>
+    <string name="string_confimdialog_title">提示</string>
+    <string name="string_price_todayte">今日特价:</string>
+    <string name="string_price_today">今日价格:</string>
+    <string name="string_price_old">原价:</string>
+    <string name="string_money_unit">元</string>
+    <string name="string_prefix_desc">菜品说明：</string>
+    <string name="string_prefix_nutr">营养描述：</string>
+    <string name="string_prefix_feat">口味特点：</string>
+    <string name="string_prefix_salecount">已被点售：</string>
+    
+    <!-- menu -->
+	<string name="action_updateconfig">配置服务器地址</string>
+    <string name="action_updatemenus">更新菜单配置文件</string>
+    <string name="action_downloadimages">更新所有菜品图片</string>
+    <string name="action_updateactivity">更新当前促销活动信息</string>
+    <string name="action_downloadactivityimages">更新当前促销活动图片</string>
+    <string name="action_about">关于本系统&#8230;</string>
+    
+    <!-- activity_spash -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Welcome to</string>
+    <string name="image_desc">Brest Image</string>
+	<string name="button_start">开始点菜 >></string>
+    
+    <!-- dialog_configserver -->
+    <string name="config_title">服务器配置</string>
+    <string name="config_server">地址：</string>
+    <string name="config_port">端口：</string>
+    <string name="config_def_server">http://</string>
+    <string name="config_def_port">80</string>
+    <string name="config_noserver">请输入服务器地址</string>
+    <string name="config_noport">请输入服务器端口</string>
+	
+    <!-- activity_main -->
+    <string name="string_action_updatemenus">确定要从服务器更新菜品配置文件吗？</string>
+    <string name="string_action_updateactivity">确定要从服务器更新促销活动配置文件吗？</string>
+    <string name="string_updatemenus_null">服务器上还没有菜单配置记录</string>
+    <string name="string_updateactivity_null">当前没有起用的促销活动记录</string>
+    <string name="string_updatemenus_faild">菜品配置文件更新失败，请联系管理员进行处理</string>
+    <string name="string_updateactivity_faild">促销活动配置文件更新失败，请联系管理员进行处理</string>
+    <string name="string_updatemenus_ok">菜品配置文件更新完毕,请退出系统重新进入</string>
+    <string name="string_updateactivity_ok">促销活动配置文件更新完毕,请退出系统重新进入</string>
+    <string name="string_update_check_net">更新失败，请检查你的网络环境</string>
+    <string name="string_update_tips_menu">使用前必须先更新菜品配置文件</string>
+    <string name="string_press_quit">再按一次退出英格咖啡餐牌系统</string>
+    <string name="string_action_downallimages">确定要从服务器下载所有菜品图片文件吗？</string>
+    <string name="string_action_downactivityimages">确定要从服务器下载所有促销活动图片文件吗？</string>
+    <string name="string_view_detail">点此显示菜品详情</string>
+    <string name="string_searchactivity_wait">正在更新促销活动，请稍候&#8230;</string>
+    <string name="string_updatemenus_wait">正在更新菜品配置文件，请稍候&#8230;</string>
+    
+    
+</resources>
